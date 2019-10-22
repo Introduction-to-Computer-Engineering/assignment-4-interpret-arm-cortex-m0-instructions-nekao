@@ -10,7 +10,7 @@ All the instruction links and one of the footnotes come from this [ARM Cortex-M0
 | | [ldr](http://infocenter.arm.com/help/topic/com.arm.doc.dui0497a/BABJGHFJ.html)     `r3, [sp, #4]` | Loads R3 from the memory with the address sp + 4 |
 | | [rsbs](http://infocenter.arm.com/help/topic/com.arm.doc.dui0497a/BABFFEJF.html)    `r3, r3, #0` | subtract R3 from zero |
 | | [movs](http://infocenter.arm.com/help/topic/com.arm.doc.dui0497a/BABHGAJI.html)    `r0, r3` | move value of R0 to R3 |
-| | [add](http://infocenter.arm.com/help/topic/com.arm.doc.dui0497a/BABFFEJF.html)     `sp, sp, #8` | add 8 to the stack pointer (and store into the stack pointer) |
+| | [add](http://infocenter.arm.com/help/topic/com.arm.doc.dui0497a/BABFFEJF.html)     `sp, sp, #8` | add 8 to the stack pointer (and removes storage in the stack pointer) |
 | | [bx](http://infocenter.arm.com/help/topic/com.arm.doc.dui0497a/BABEFHAE.html)      `lr` | Return from function call |
 | | | |
 | main: | | _Label (corresponds to the address of the first following instruction)_ |
